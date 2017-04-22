@@ -4,7 +4,7 @@
 <html lang="en" class="no-js">
 
 <head>
-	<title>Chwa pan'</title>
+	<title>ChwaPaN'</title>
 
 	<meta charset="utf-8">
 
@@ -49,6 +49,17 @@
 	
 </head>
 <body>
+ <style type="text/css">
+ 	p{
+ 		color:black;
+ 		font-size: 17px;
+ 		text-align: justify;
+    	text-justify: inter-word;
+ 		font-family: 'calibri';
+ 		line-height: 20pt;
+
+ 	}
+ </style>
 
 	<!-- Container -->
 	<div id="container">
