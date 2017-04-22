@@ -20,11 +20,12 @@ require_once ("tete.php");
 
 							<!-- THE CAPTIONS IN THIS SLDIE -->
 							<div class="caption large_text sfb"
+								 	
 								 data-x="170"
 								 data-y="128"
 								 data-speed="600"
 								 data-start="1200"
-								 data-easing="easeOutExpo" data-end="7000" data-endspeed="300" data-endeasing="easeInSine" >Welcome to Chwa PaN</div>
+								 data-easing="easeOutExpo" data-end="7000" data-endspeed="300" data-endeasing="easeInSine" >Bienvenue sur  <strong>Chwa PaN</strong></div>
 
 							<div class="caption big_white sft stt"
 								 data-x="370"
@@ -78,11 +79,7 @@ require_once ("tete.php");
 								 data-y="185"
 								 data-speed="600"
 								 data-start="1200"
-								 data-easing="easeOutExpo" data-end="7000" data-endspeed="300" data-endeasing="easeInSine"><span> Chwa PaN</span></div>
-							
-
-							
-							
+								 data-easing="easeOutExpo" data-end="7000" data-endspeed="300" data-endeasing="easeInSine"><span> Chwa PaN</span></div>						
 
 							<div class="caption randomrotate"
 								 data-x="587"
@@ -105,12 +102,6 @@ require_once ("tete.php");
 								 data-start="2300"
 								 data-easing="easeOutExpo" data-end="8000" data-endspeed="300" data-endeasing="easeInSine" ><img src="images/slider-icons/icon14.png" alt="Image 7"></div>
 
-							<div class="caption randomrotate"
-								 data-x="808"
-								 data-y="200"
-								 data-speed="600"
-								 data-start="2500"
-								 data-easing="easeOutExpo" data-end="8300" data-endspeed="300" data-endeasing="easeInSine" ><img src="images/slider-icons/icon11.png" alt="Image 10"></div>
 						</li>
 					</ul>
 				</div>
@@ -315,54 +306,47 @@ require_once ("tete.php");
 
 			<div class="infographic-box">
 				<div class="container">
-					<h3>Statistic des diferents types de planning familial</h3>
-					<ul class="gender-list">
-						<li><a href="#"><i class="fa fa-male"></i></a></li>
-						<li><a href="#"><i class="fa fa-male"></i></a></li>
-						<li><a href="#"><i class="fa fa-male"></i></a></li>
-						<li><a href="#"><i class="fa fa-male"></i></a></li>
-						<li><a href="#"><i class="fa fa-male"></i></a></li>
-						<li><a href="#"><i class="fa fa-male"></i></a></li>
-						<li><a href="#"><i class="fa fa-male"></i></a></li>
-						<li><a href="#"><i class="fa fa-male"></i></a></li>
-						<li><a href="#"><i class="fa fa-female"></i></a></li>
-						<li><a href="#"><i class="fa fa-female"></i></a></li>
-						<li><a href="#"><i class="fa fa-female"></i></a></li>
-						<li><a href="#"><i class="fa fa-female"></i></a></li>
-						<li><a href="#"><i class="fa fa-female"></i></a></li>
-						<li><a href="#"><i class="fa fa-female"></i></a></li>
-						<li><a href="#"><i class="fa fa-female"></i></a></li>
-						<li><a href="#"><i class="fa fa-female"></i></a></li>
+					<h3 align="center">Statistique des différents types de planning familial</h3>
+					<ul class="gender-list" align="center">						
+						<li><a href="#"><i class="fa fa-male"></i></a></li>					
+						<li><a href="#"><i class="fa fa-female"></i></a></li>	
+						<li><a href="#"><i class="fa fa-male"></i></a></li>					
+						<li><a href="#"><i class="fa fa-female"></i></a></li>				
 					</ul>
+					
+
+				<h4 align="center">Efficacité pratique </h4><br/>
 					
 						<div class="skills-bar">
 						<div class="row">
 							<div class="col-md-2">
-								<div id="circle" data-percent="50"></div>
+								<div id="circle" data-percent="99"></div>
 								<p>Pilule</p>
 							</div>
 							<div class="col-md-2">
-								<div id="circle2" data-percent="39"></div>
+								<div id="circle2" data-percent="99"></div>
 								<p>Injection</p>
 							</div>
 							<div class="col-md-2">
-								<div id="circle3" data-percent="90"></div>
-								<p>Préservatif</p>
+								<div id="circle3" data-percent="98"></div>
+								<p>Préservatif masculin</p>
 							</div>
 							<div class="col-md-2">
-								<div id="circle4" data-percent="60"></div>
+								<div id="circle4" data-percent="99"></div>
 								<p>Implant</p>
 							</div>
 							<div class="col-md-2">
-								<div id="circle5" data-percent="80"></div>
-								<p>Stérilet</p>
+								<div id="circle5" data-percent="96"></div>
+								<p>Retrait</p>
 							</div>
 							<div class="col-md-2">
-								<div id="circle6" data-percent="45"></div>
-								<p>Circular Progress Bar</p>
+								<div id="circle6" data-percent="95"></div>
+								<p>Préservatif feminin</p>
 							</div>
 						</div>
-					</div>
+					</div>					
+				</div>	
+			</div>		
 
 			<?php
 			require_once ("pied.php");

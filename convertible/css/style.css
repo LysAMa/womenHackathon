@@ -22,6 +22,10 @@
 /*-------------------------------------------------------*/
 /* 1. Isotope filtering
 /*-------------------------------------------------------*/
+.caption modern_small_text_dark sft
+{
+    color: Blue;
+}
 .isotope-item {
     z-index: 2;
 }
