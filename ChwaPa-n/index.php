@@ -276,15 +276,15 @@ require_once ("tete.php");
 									<div class="col-md-3">
 										<div class="work-post">
 											<div class="work-post-gal">
-												<img alt="" src="upload/image1.jpg">
+												<img alt="" src="imagines/image1.jpg">
 												<div class="hover-box">
 													<a class="zoom video" href="http://www.youtube.com/watch?v=XSGBVzeBUbk"></a>
 													<a class="page" href="single-project.html"></a>
 												</div>
 											</div>
 											<div class="work-post-content">
-												<h5>Iphone Wallpaper</h5>
-												<span>smartphones</span>
+												<h5>La pilule</h5>
+												<span>Planification familiale</span>
 											</div>
 										</div>
 									</div>
@@ -299,8 +299,8 @@ require_once ("tete.php");
 												</div>
 											</div>
 											<div class="work-post-content">
-												<h5>Green Leaf Falling Dawn</h5>
-												<span>nature</span>
+												<h5>Les contraceptifs injectables</h5>
+												<span>Planification familiale</span>
 											</div>										
 										</div>
 									</div>
@@ -315,8 +315,8 @@ require_once ("tete.php");
 												</div>
 											</div>
 											<div class="work-post-content">
-												<h5>Beautiful Wallpaper</h5>
-												<span>wallpaper</span>
+												<h5>Le sterilet</h5>
+												<span>Planification familiale</span>
 											</div>										
 										</div>
 									</div>
@@ -331,8 +331,8 @@ require_once ("tete.php");
 												</div>
 											</div>
 											<div class="work-post-content">
-												<h5>Futuristic Office Design</h5>
-												<span>furniture</span>
+												<h5>Le preservatif masculin</h5>
+												<span>Planification familiale</span>
 											</div>										
 										</div>
 									</div>
@@ -353,27 +353,13 @@ require_once ("tete.php");
 												</div>
 											</div>
 											<div class="work-post-content">
-												<h5>Iphone Wallpaper</h5>
-												<span>smartphones</span>
+												<h5>Le preservatif feminin</h5>
+												<span>Planification familiale</span>
 											</div>
 										</div>
 									</div>
 
-									<div class="col-md-3">
-										<div class="work-post">
-											<div class="work-post-gal">
-												<img alt="" src="upload/image2.jpg">
-												<div class="hover-box">
-													<a class="zoom" href="upload/image2.jpg"></a>
-													<a class="page" href="single-project.html"></a>
-												</div>
-											</div>
-											<div class="work-post-content">
-												<h5>Green Leaf Falling Dawn</h5>
-												<span>nature</span>
-											</div>										
-										</div>
-									</div>
+								
 
 									<div class="col-md-3">
 										<div class="work-post">
@@ -385,24 +371,40 @@ require_once ("tete.php");
 												</div>
 											</div>
 											<div class="work-post-content">
-												<h5>Beautiful Wallpaper</h5>
-												<span>wallpaper</span>
+												<h5>La contraception d'urgence</h5>
+												<span>Planification familiale</span>
 											</div>										
 										</div>
 									</div>
-
+									
 									<div class="col-md-3">
 										<div class="work-post">
 											<div class="work-post-gal">
-												<img alt="" src="upload/image4.jpg">
+												<img alt="" src="upload/image3.jpg">
 												<div class="hover-box">
-													<a class="zoom" href="upload/image4.jpg"></a>
+													<a class="zoom" href="upload/image3.jpg"></a>
 													<a class="page" href="single-project.html"></a>
 												</div>
 											</div>
 											<div class="work-post-content">
-												<h5>Futuristic Office Design</h5>
-												<span>furniture</span>
+												<h5>La vasectomie</h5>
+												<span>Planification familiale</span>
+											</div>										
+										</div>
+									</div>
+									
+									<div class="col-md-3">
+										<div class="work-post">
+											<div class="work-post-gal">
+												<img alt="" src="upload/image3.jpg">
+												<div class="hover-box">
+													<a class="zoom" href="upload/image3.jpg"></a>
+													<a class="page" href="single-project.html"></a>
+												</div>
+											</div>
+											<div class="work-post-content">
+												<h5>La methode des jours fixes</h5>
+												<span>Planification familiale</span>
 											</div>										
 										</div>
 									</div>
