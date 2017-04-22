@@ -5,17 +5,7 @@ require_once ("tete.php");
 			================================================== -->
 		<div id="content">
 
-			<!-- Page Banner -->
-			<div class="page-banner">
-				<div class="container">
-					<h2>Fresh News</h2>
-					<ul class="page-tree">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Killing the author quiz but no let up on the review process</a></li>
-					</ul>		
-				</div>
-			</div>
+			
 
 			<!-- blog-box Banner -->
 			<div class="blog-box with-sidebar">

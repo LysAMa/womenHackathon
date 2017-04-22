@@ -12,6 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,700,600,300' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" type="image/png" href="images/logo7.png" />
 
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
     <!-- REVOLUTION BANNER CSS SETTINGS -->
