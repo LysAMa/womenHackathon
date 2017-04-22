@@ -79,7 +79,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#"><img alt="" src="images/logo.png"></a>
+						<a class="navbar-brand" href="#"><img alt="" src="images/logookfin.png"></a>
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
