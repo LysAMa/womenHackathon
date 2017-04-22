@@ -304,10 +304,10 @@ require_once ("tete.php");
 				</div>
 			</div>
 
-			<div class="infographic-box">
+			<div class="infographic-box" align="center">
 				<div class="container">
-					<h3 align="center">Statistique des différents types de planning familial</h3>
-					<ul class="gender-list" align="center">						
+					<h3 >Statistique des différents types de planning familial</h3>
+					<ul class="gender-list" >						
 						<li><a href="#"><i class="fa fa-male"></i></a></li>					
 						<li><a href="#"><i class="fa fa-female"></i></a></li>	
 						<li><a href="#"><i class="fa fa-male"></i></a></li>					
