@@ -1,89 +1,14 @@
-<!doctype html>
+<?php
+require_once ("tete.php");
+?>
 
 
-<html lang="en" class="no-js">
-
-<head>
-	<title>Chwa pan'</title>
-
-	<meta charset="utf-8">
-
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,700,600,300' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
 
 
-</head>
-<body>
 
-	<!-- Container -->
-	<div id="container">
-		<!-- Header
-		    ================================================== -->
-		<header class="clearfix">
-			<!-- Static navbar -->
-			<div class="navbar navbar-default navbar-fixed-top">
-				<div class="top-line">
-					<div class="container">
-						<p>
-							<span><i class="fa fa-phone"></i>1234 - 5678 - 9012</span>
-							<span><i class="fa fa-envelope-o"></i>support@convertible.com</span>
-						</p>
-						<ul class="social-icons">
-							<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
-							<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
-							<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#"><img alt="" src="images/logo.png"></a>
-					</div>
-					<div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-right">
 
-							<li class="drop"><a href="index.html">Acceuil</a>
-							</li>
-							<li class="drop"><a href="index.html">Menu</a>
-								<ul class="drop-down">
-								<li><a href="index.html">Planning chez nous et dans le monde</a></li>
-									<li><a href="flexslider.html">Planning et religion</a></li>
-									<li><a href="flexslider.html">Methode de planning</a></li>
-								</ul>
-							</li>
-							<li><a href="about.html">A propos</a></li>
-							<li class="drop"><a href="blog-right-sidebar.html">Forum</a>
-								<ul class="drop-down">
-									<li><a href="blog-one-col.html">Blog 1col</a></li>
-									<li><a href="blog-two-col.html">Blog 2col</a></li>
-									<li><a href="blog-right-sidebar.html">Blog right sidebar</a></li>
-									<li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-									<li><a href="blog-nosidebar.html">Blog no sidebar</a></li>
-								</ul>
-							</li>
-							<li><a class="active" href="contact.html">Contactez-nous</a></li>
 
-						</ul>
-					</div>
-				</div>
-			</div>
-		</header>
-		<!-- End Header -->
+
 
 		<!-- content 
 			================================================== -->

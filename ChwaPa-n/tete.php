@@ -84,27 +84,20 @@
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
 
-							<li><a class="active" href="index.php">Acceuil</a>
+							<li><a class="" href="index.php">Acceuil</a>
 			
 							</li>
-							<li class="drop"><a href="menu.html">Menu</a>
-								<ul class="drop-down">
-									<li><a href="planingcheznous.php">Planning chez nous et dans le monde</a></li>
-									<li><a href="flexslider.html">Planning et religion</a></li>
-									<li><a href="flexslider.html">Methode de planning</a></li>
-								</ul>
+							<li class=""><a href="adoption.php">Adoption</a>
+								
 							</li>
-							<li><a href="about.html">A propos</a></li>
-							<li class="drop"><a href="blog-right-sidebar.html">Forum</a>
-								<ul class="drop-down">
-									<li><a href="blog-one-col.html">Blog 1col</a></li>
-									<li><a href="blog-two-col.html">Blog 2col</a></li>
-									<li><a href="blog-right-sidebar.html">Blog right sidebar</a></li>
-									<li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-									<li><a href="blog-nosidebar.html">Blog no sidebar</a></li>
-								</ul>
-							</li>						
-							<li><a href="contact.html">Contactez-nous</a></li>
+							
+							<li class=""><a href="forum.php">Forum</a>
+								
+							</li>	
+											
+							<li class=""> <a href="contact.php">Contactez-nous</a>
+
+							</li>
 
 						</ul>
 					</div>
