@@ -19,6 +19,10 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
+import com.example.root.codev02.fragments.CalendrierFragment;
+import com.example.root.codev02.fragments.GrapheFragment;
+import com.example.root.codev02.fragments.InfoFragment;
+
 public class TabActivity extends AppCompatActivity {
 
     /**
@@ -53,11 +57,13 @@ public class TabActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
-
+        //Sa se partie ki jere bouton avec icon message la anba a droite
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //Sa se le ew clicke sou bouton an li fe action sa
+
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
@@ -135,9 +141,21 @@ public class TabActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            // getItem is called to instantiate the fragment for the given page.
-            // Return a PlaceholderFragment (defined as a static inner class below).
-            return PlaceholderFragment.newInstance(position + 1);
+            // Sa se kote pouw change fragment en fonction de tab la
+            switch (position){
+                case 0:
+                    //Nan cas 0 lap retounen premier fragment an et ainsi de suite en commencant par 0
+                    return  new InfoFragment();
+
+                case 1:
+                    return new CalendrierFragment();
+                case 2:
+                    return new GrapheFragment();
+                default:
+                    return new InfoFragment();
+            }
+
+
         }
 
         @Override
