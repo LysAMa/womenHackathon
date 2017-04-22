@@ -8,9 +8,9 @@ require_once ("tete.php");
 			<!-- Page Banner -->
 			<div class="page-banner">
 				<div class="container">
-					<h2>Fresh News</h2>
+					<h2>Methode de planification familiale</h2>
 					<ul class="page-tree">
-						<li><a href="#">Home</a></li>
+						<li><a href="#">Acceuil</a></li>
 						<li><a href="#">Blog</a></li>
 					</ul>		
 				</div>
@@ -26,36 +26,34 @@ require_once ("tete.php");
 								<div class="col-md-4">
 									<div class="item news-item">
 										<div class="inner-item">
-											<img alt="" src="upload/photo1.jpg">
+											<img alt="" src="images/pilule.jpg">
 											<div class="hover-item">
 												<ul>
-													<li><a class="autor" href="#"><i class="fa fa-user"></i> TrendyStuff</a></li>
-													<li><a class="date" href="#"><i class="fa fa-clock-o"></i> 19 October, 2013</a></li>
-													<li><a class="comment-numb" href="#"><i class="fa fa-comments"></i> 16 Comments</a></li>
+													<li><a class="autor" href="#">La pilule</a></li>
+													<li><a class="comment-numb" href="#">Planification familiale</a></li>
 												</ul>
 											</div>
 										</div>
-										<h5>Killing the author quiz but no let up on the review process</h5>
-										<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit </p>
-										<a class="read-more" href="single-post.php">read more <i class="fa fa-arrow-right"></i></a>
+										<h5>La pilule</h5>
+										<p>Sans risque, efficace si on prend une pilule par jour, règles moins abondantes et moins de crampes...</p>
+										<a class="read-more" href="single-post.php">Suite<i class="fa fa-arrow-right"></i></a>
 									</div>
 								</div>
 
 								<div class="col-md-4">
 									<div class="item news-item">
 										<div class="inner-item">
-											<img alt="" src="upload/photo2.jpg">
+											<img alt="" src="images/sterilet.jpg">
 											<div class="hover-item">
 												<ul>
-													<li><a class="autor" href="#"><i class="fa fa-user"></i> TrendyStuff</a></li>
-													<li><a class="date" href="#"><i class="fa fa-clock-o"></i> 19 October, 2013</a></li>
-													<li><a class="comment-numb" href="#"><i class="fa fa-comments"></i> 16 Comments</a></li>
+													<li><a class="autor" href="#">Le sterilet</a></li>
+													<li><a class="comment-numb" href="#"> Planification familiale</a></li>
 												</ul>
 											</div>
 										</div>
-										<h5>Killing the author quiz but no let up on the review process</h5>
-										<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit </p>
-										<a class="read-more" href="single-post.php">read more <i class="fa fa-arrow-right"></i></a>
+										<h5>Le sterilet</h5>
+										<p>L'une des méthodes les plus efficaces, peut être retiré à tout moment si vous voulez avoir un enfant...</p>
+										<a class="read-more" href="single-post.php">Suite<i class="fa fa-arrow-right"></i></a>
 										
 									</div>
 								</div>
@@ -63,18 +61,17 @@ require_once ("tete.php");
 								<div class="col-md-4">
 									<div class="item news-item">
 										<div class="inner-item">
-											<img alt="" src="upload/photo3.jpg">
+											<img alt="" src="images/retrait.jpg">
 											<div class="hover-item">
 												<ul>
-													<li><a class="autor" href="#"><i class="fa fa-user"></i> TrendyStuff</a></li>
-													<li><a class="date" href="#"><i class="fa fa-clock-o"></i> 19 October, 2013</a></li>
-													<li><a class="comment-numb" href="#"><i class="fa fa-comments"></i> 16 Comments</a></li>
+													<li><a class="autor" href="#">Le retrait</a></li>
+													<li><a class="comment-numb" href="#">Planification familiale</a></li>
 												</ul>
 											</div>
 										</div>
-										<h5>Killing the author quiz but no let up on the review process</h5>
-										<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit</p>
-										<a class="read-more" href="single-post.php">read more <i class="fa fa-arrow-right"></i></a>	
+										<h5>Le retrait</h5>
+										<p>Aucun matériel nécessaire, pas d'effets secondaires, applicable à tout moment, pas aussi efficace que les autres méthodes...</p>
+										<a class="read-more" href="single-post.php">Suite <i class="fa fa-arrow-right"></i></a>	
 									</div>
 								</div>
 							</div>
@@ -83,36 +80,35 @@ require_once ("tete.php");
 								<div class="col-md-4">
 									<div class="item news-item">
 										<div class="inner-item">
-											<img alt="" src="upload/photo1.jpg">
+											<img alt="" src="images/injectables.jpg">
 											<div class="hover-item">
 												<ul>
-													<li><a class="autor" href="#"><i class="fa fa-user"></i> TrendyStuff</a></li>
-													<li><a class="date" href="#"><i class="fa fa-clock-o"></i> 19 October, 2013</a></li>
-													<li><a class="comment-numb" href="#"><i class="fa fa-comments"></i> 16 Comments</a></li>
+													<li><a class="autor" href="#">Les contraceptifs injectables</a></li>
+													<li><a class="comment-numb" href="#">Planification familiale</a></li>
 												</ul>
 											</div>
 										</div>
-										<h5>Killing the author quiz but no let up on the review process</h5>
-										<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit </p>
-										<a class="read-more" href="single-post.php">read more <i class="fa fa-arrow-right"></i></a>
+										<h5>Les contraceptifs injectables</h5>
+										<p>Injection d'hormones tous les 2 mois ou tous les 3 mois (DMPA), très efficace quand les injections sont faites à temps...
+ </p>
+										<a class="read-more" href="single-post.php">Suite<i class="fa fa-arrow-right"></i></a>
 									</div>
 								</div>
 
 								<div class="col-md-4">
 									<div class="item news-item">
 										<div class="inner-item">
-											<img alt="" src="upload/photo2.jpg">
+											<img alt="" src="images/naturel.jpg">
 											<div class="hover-item">
 												<ul>
-													<li><a class="autor" href="#"><i class="fa fa-user"></i> TrendyStuff</a></li>
-													<li><a class="date" href="#"><i class="fa fa-clock-o"></i> 19 October, 2013</a></li>
-													<li><a class="comment-numb" href="#"><i class="fa fa-comments"></i> 16 Comments</a></li>
+													<li><a class="autor" href="#">Traitements naturels</a></li>
+													<li><a class="comment-numb" href="#">Planification familiale</a></li>
 												</ul>
 											</div>
 										</div>
-										<h5>Killing the author quiz but no let up on the review process</h5>
-										<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit </p>
-										<a class="read-more" href="single-post.php">read more <i class="fa fa-arrow-right"></i></a>
+										<h5>Traitements naturels</h5>
+										<p>Tout remede n'est pas forcement chimique, certaines plantes medicinales et fruits sont efficaces...</p>
+										<a class="read-more" href="single-post.php">Suite<i class="fa fa-arrow-right"></i></a>
 										
 									</div>
 								</div>
@@ -120,18 +116,17 @@ require_once ("tete.php");
 								<div class="col-md-4">
 									<div class="item news-item">
 										<div class="inner-item">
-											<img alt="" src="upload/photo3.jpg">
+											<img alt="" src="images/preservatifs.jpg">
 											<div class="hover-item">
 												<ul>
-													<li><a class="autor" href="#"><i class="fa fa-user"></i> TrendyStuff</a></li>
-													<li><a class="date" href="#"><i class="fa fa-clock-o"></i> 19 October, 2013</a></li>
-													<li><a class="comment-numb" href="#"><i class="fa fa-comments"></i> 16 Comments</a></li>
+													<li><a class="autor" href="#">Le preservatif masculin</a></li>
+													<li><a class="comment-numb" href="#">Planification familiale</a></li>
 												</ul>
 											</div>
 										</div>
-										<h5>Killing the author quiz but no let up on the review process</h5>
-										<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit</p>
-										<a class="read-more" href="single-post.php">read more <i class="fa fa-arrow-right"></i></a>	
+										<h5>Le preservatif masculin</h5>
+										<p>Prévient la grossesse et les infections sexuellement transmissibles, dont le VIH/sida, facile à obtenir et à utiliser...</p>
+										<a class="read-more" href="single-post.php">Suite<i class="fa fa-arrow-right"></i></a>	
 									</div>
 								</div>
 							</div>
@@ -140,36 +135,35 @@ require_once ("tete.php");
 								<div class="col-md-4">
 									<div class="item news-item">
 										<div class="inner-item">
-											<img alt="" src="upload/photo1.jpg">
+											<img alt="" src="images/preservatif.jpg">
 											<div class="hover-item">
 												<ul>
-													<li><a class="autor" href="#"><i class="fa fa-user"></i> TrendyStuff</a></li>
-													<li><a class="date" href="#"><i class="fa fa-clock-o"></i> 19 October, 2013</a></li>
-													<li><a class="comment-numb" href="#"><i class="fa fa-comments"></i> 16 Comments</a></li>
+													<li><a class="autor" href="#">Le preservatif feminin</a></li>
+													<li><a class="comment-numb" href="#">Planification familiale</a></li>
 												</ul>
 											</div>
 										</div>
-										<h5>Killing the author quiz but no let up on the review process</h5>
-										<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit </p>
-										<a class="read-more" href="single-post.php">read more <i class="fa fa-arrow-right"></i></a>
+										<h5>Le preservatif feminin</h5>
+										<p>Prévient la grossesse et les infections sexuellement transmissibles, dont le VIH/sida...
+</p>
+										<a class="read-more" href="single-post.php">Suite<i class="fa fa-arrow-right"></i></a>
 									</div>
 								</div>
 
 								<div class="col-md-4">
 									<div class="item news-item">
 										<div class="inner-item">
-											<img alt="" src="upload/photo2.jpg">
+											<img alt="" src="images/vasectomie.jpg">
 											<div class="hover-item">
 												<ul>
-													<li><a class="autor" href="#"><i class="fa fa-user"></i> TrendyStuff</a></li>
-													<li><a class="date" href="#"><i class="fa fa-clock-o"></i> 19 October, 2013</a></li>
-													<li><a class="comment-numb" href="#"><i class="fa fa-comments"></i> 16 Comments</a></li>
+													<li><a class="autor" href="#">Vasectomie</a></li>
+													<li><a class="comment-numb" href="#">Planification familiale</a></li>
 												</ul>
 											</div>
 										</div>
-										<h5>Killing the author quiz but no let up on the review process</h5>
-										<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit </p>
-										<a class="read-more" href="single-post.php">read more <i class="fa fa-arrow-right"></i></a>
+										<h5>Vasectomie</h5>
+										<p>Méthode sans risque et définitive – pour les hommes ou les couples qui ne veulent plus avoir d'enfants...</p>
+										<a class="read-more" href="single-post.php">Suite<i class="fa fa-arrow-right"></i></a>
 										
 									</div>
 								</div>
@@ -177,28 +171,21 @@ require_once ("tete.php");
 								<div class="col-md-4">
 									<div class="item news-item">
 										<div class="inner-item">
-											<img alt="" src="upload/photo3.jpg">
+											<img alt="" src="images/sterilization.png">
 											<div class="hover-item">
 												<ul>
-													<li><a class="autor" href="#"><i class="fa fa-user"></i> TrendyStuff</a></li>
-													<li><a class="date" href="#"><i class="fa fa-clock-o"></i> 19 October, 2013</a></li>
-													<li><a class="comment-numb" href="#"><i class="fa fa-comments"></i> 16 Comments</a></li>
+													<li><a class="autor" href="#">La sterilisation feminine</a></li>
+													<li><a class="comment-numb" href="#">Planification familiale</a></li>
 												</ul>
 											</div>
 										</div>
-										<h5>Killing the author quiz but no let up on the review process</h5>
-										<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit</p>
-										<a class="read-more" href="single-post.php">read more <i class="fa fa-arrow-right"></i></a>	
+										<h5>La sterilisation feminine</h5>
+										<p>Méthode sans risque et définitive – pour les femmes ou les couples qui ne veulent plus avoir d'enfants...</p>
+										<a class="read-more" href="single-post.php">Suite<i class="fa fa-arrow-right"></i></a>	
 									</div>
 								</div>
 							</div>
-							<ul class="pagination-list">
-								<li><a class="active" href="#">1</a></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">5</a></li>
-							</ul>
+							
 						</div>
 
 						<div class="col-md-3 sidebar">
