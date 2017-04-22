@@ -5,16 +5,26 @@
     xmlns:scatter="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.root.codev02.fragments.GrapheFragment">
 
+    <TextView
+        android:text="Avoir le controle, c'est avoir le choix!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:fontFamily="casual"
+        android:layout_marginTop="10dp" />
+
     <com.intrusoft.scatter.PieChart
         android:id="@+id/pie_chart"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="313dp"
         android:layout_above="@+id/footer"
         scatter:aboutChart="Cycle Menstruel"
-        scatter:aboutTextColor="@color/colorPrimary"
-        scatter:centerColor="@color/colorAccent"
-        scatter:chartColor="#0D47A1"
+        scatter:aboutTextColor="#ffffff"
+        scatter:centerColor="#40bd4c"
+        scatter:chartColor="#0076f9"
         scatter:equalPartition="false"
-        scatter:textColor="@color/colorAccent" />
+        scatter:textColor="#ffffff"
+        android:layout_marginTop="70dp" />
 
 </LinearLayout>
