@@ -1,13 +1,20 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:scatter="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.root.codev02.fragments.GrapheFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.intrusoft.scatter.PieChart
+        android:id="@+id/pie_chart"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_above="@+id/footer"
+        scatter:aboutChart="Cycle Menstruel"
+        scatter:aboutTextColor="@color/colorPrimary"
+        scatter:centerColor="@color/colorAccent"
+        scatter:chartColor="#0D47A1"
+        scatter:equalPartition="false"
+        scatter:textColor="@color/colorAccent" />
 
-</FrameLayout>
+</LinearLayout>
