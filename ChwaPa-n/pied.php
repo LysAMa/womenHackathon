@@ -141,7 +141,7 @@
 		
 			<div class="footer-line">
 				<div class="container">
-					<p>&#169; 2017 Chwa pan',  Tous droits reservés</p>
+					<p>&#169; 2017 ChwaPaN',  Tous droits reservés</p>
 					<a class="go-top" href="#"></a>
 				</div>
 			</div>

@@ -4,7 +4,7 @@
 <html lang="en" class="no-js">
 
 <head>
-	<title>Chwa pan'</title>
+	<title>ChwaPaN'</title>
 
 	<meta charset="utf-8">
 
@@ -49,6 +49,17 @@
 	
 </head>
 <body>
+ <style type="text/css">
+ 	p{
+ 		color:black;
+ 		font-size: 17px;
+ 		text-align: justify;
+    	text-justify: inter-word;
+ 		font-family: 'calibri';
+ 		line-height: 20pt;
+
+ 	}
+ </style>
 
 	<!-- Container -->
 	<div id="container">
@@ -85,20 +96,13 @@
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
 
-							<li><a class="" href="index.php">Acceuil</a>
-			
-							</li>
-							<li class=""><a href="adoption.php">Adoption</a>
-								
-							</li>
-							
-							<li class=""><a href="forum.php">Forum</a>
-								
-							</li>	
-											
-							<li class=""> <a href="contact.php">Contactez-nous</a>
+							<li class=""><a class="" href="index.php">Acceuil</a></li>
 
-							</li>
+							<li class=""><a href="adoption.php">Adoption</a></li>
+							
+							<li class=""><a href="forum.php">Forum</a></li>	
+											
+							<li class=""> <a href="contact.php">Contactez-nous</a></li>
 
 						</ul>
 					</div>
