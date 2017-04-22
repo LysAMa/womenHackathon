@@ -181,10 +181,10 @@ header.active .navbar-brand {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #4E37A1;
+    color: #007Aff;
     font-style: italic;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-family: 'comic sans ms', sans-serif;
     font-weight: 300;
     padding: 44px 0;
     text-transform: uppercase;
@@ -205,7 +205,7 @@ header.active .navbar-brand {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #0077f9;
+    color: #A7A7A8;
 }
 
 header.active .navbar-nav > li > a {

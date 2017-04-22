@@ -96,20 +96,13 @@
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
 
-							<li><a class="" href="index.php">Acceuil</a>
-			
-							</li>
-							<li class=""><a href="adoption.php">Adoption</a>
-								
-							</li>
-							
-							<li class=""><a href="forum.php">Forum</a>
-								
-							</li>	
-											
-							<li class=""> <a href="contact.php">Contactez-nous</a>
+							<li class="drop"><a class="" href="index.php">Acceuil</a></li>
 
-							</li>
+							<li class="drop"><a href="adoption.php">Adoption</a></li>
+							
+							<li class="drop"><a href="forum.php">Forum</a></li>	
+											
+							<li class="drop"> <a href="contact.php">Contactez-nous</a></li>
 
 						</ul>
 					</div>
