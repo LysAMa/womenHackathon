@@ -35,47 +35,49 @@ require_once ("tete.php");
 
 						<div class="col-md-3">
 							<div class="contact-information">
-								<h3>Contact info</h3>
+								<h3>Informations  Contact</h3>
 								<ul class="contact-information-list">
-									<li><span><i class="fa fa-home"></i>lorem ipsum street</span></li>
-									<li><span><i class="fa fa-phone"></i>9930 1234 5679</span></li>
-									<li><a href="#"><i class="fa fa-envelope"></i>info@orbit7.com</a></li>
+									<li><span><i class="fa fa-home"></i>Latranlbe 6 #20</span></li>
+									<li><span><i class="fa fa-phone"></i>+5094898991</span></li>
+									<li><a href="#"><i class="fa fa-envelope"></i>chwapan@gmail.com</a></li>
 								</ul>
 							</div>
 						</div>
 
 						<div class="col-md-3">
 							<div class="contact-information">
-								<h3>Working hours</h3>
-								<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis set odio sit amet nibh vulputate cursus </p>
-								<p class="work-time"><span>Mon - Fri</span> : 10 AM to 5 PM</p>
-								<p class="work-time"><span>Sat - Sun</span> : 10 AM to 2 PM</p>
+								<h3>Heures de Travail</h3>
+								<p>Le site est en activite tous les jours pour les message Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco. Envoyez vos messages vers :</p>
+								<p class="work-time"><span>Lundi - Vendredi</span> : 10 AM à  5 PM</p>
+								<p class="work-time"><span>Samedi - Dimanche</span> : 10 AM à  2 PM</p>
 							</div>
 						</div>
 
 						<div class="col-md-6">
-							<h3>Send us a message</h3>
+							<h3>Envoyez nous un Message</h3>
 							<form id="contact-form" class="contact-work-form2">
 
 								<div class="text-input">
 									<div class="float-input">
-										<input name="name" id="name2" type="text" placeholder="name">
+										<input name="name" id="name2" type="text" placeholder="Nom">
 										<span><i class="fa fa-user"></i></span>
 									</div>
 
 									<div class="float-input2">
-										<input name="mail" id="mail2" type="text" placeholder="email">
+										<input name="mail" id="mail2" type="text" placeholder="E-mail">
 										<span><i class="fa fa-envelope"></i></span>
 									</div>
 								</div>
 
 								<div class="textarea-input">
-									<textarea name="comment" id="comment2" placeholder="message"></textarea>
+									<textarea name="comment" id="comment2" placeholder="Message"></textarea>
 									<span><i class="fa fa-comment"></i></span>
 								</div>
 
 								<div class="msg2 message"></div>
-								<input type="submit" name="mailing-submit" class="submit_contact main-form" value="Send Message">
+								<input type="submit" name="mailing-submit" class="submit_contact main-form" value="Envoyez">
 
 							</form>
 						</div>
