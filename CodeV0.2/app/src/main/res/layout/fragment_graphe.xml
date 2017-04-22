@@ -16,8 +16,8 @@
 
     <com.intrusoft.scatter.PieChart
         android:id="@+id/pie_chart"
-        android:layout_width="match_parent"
-        android:layout_height="313dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
         android:layout_above="@+id/footer"
         scatter:aboutChart="Cycle Menstruel"
         scatter:aboutTextColor="#ffffff"

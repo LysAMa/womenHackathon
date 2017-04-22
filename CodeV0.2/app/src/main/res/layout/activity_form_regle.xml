@@ -54,15 +54,21 @@
                 android:textSize="18sp"
                 android:layout_marginTop="110dp" />
 
-            <Spinner
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginRight="165dp"
-                android:layout_marginEnd="165dp"
-                android:id="@+id/spinner6"
-                android:layout_below="@+id/spinner5" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="165dp"
+                    android:layout_marginEnd="165dp"
+                    android:id="@+id/spinner6"
+                    android:layout_below="@+id/spinner5"
+                    android:layout_weight="1" />
+            </android.support.design.widget.TextInputLayout>
 
             <TextView
                 android:text="Duree du cycle :"
@@ -73,15 +79,21 @@
                 android:fontFamily="casual"
                 android:textSize="18sp" />
 
-            <Spinner
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/spinner5"
-                android:layout_below="@+id/description"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginTop="10dp"
-                android:layout_weight="0.12" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner5"
+                    android:layout_below="@+id/description"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1" />
+
+            </android.support.design.widget.TextInputLayout>
 
             <TextView
                 android:text="Selectionner la date des dernieres regles :"
@@ -91,13 +103,18 @@
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:fontFamily="casual" />
 
-            <EditText
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="date"
-                android:ems="10"
-                android:id="@+id/editText4"
-                android:fontFamily="sans-serif" />
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:id="@+id/editText3"
+                    android:layout_weight="1" />
+            </android.support.design.widget.TextInputLayout>
 
             <Button
                 android:text="Voir le graphe"

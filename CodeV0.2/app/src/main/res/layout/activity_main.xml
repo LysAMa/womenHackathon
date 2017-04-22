@@ -8,6 +8,15 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
+    <in.myinnos.imagesliderwithswipeslibrary.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:auto_cycle="true"
+        custom:indicator_visibility="visible"
+        custom:pager_animation="Stack"
+        custom:pager_animation_span="1100" />
+
     <include
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"
