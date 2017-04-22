@@ -11,107 +11,114 @@
     tools:context="com.example.root.codev02.FormRegleActivity">
 
     <TextView
-        android:text="Method Planing Naturel"
-        android:layout_width="wrap_content"
+        android:text="Methode Planing Naturel"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="66dp"
-        android:id="@+id/textView3"
+        android:id="@+id/titre"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:fontFamily="cursive"
-        android:textSize="18sp" />
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:layout_marginTop="10px" />
 
     <TextView
-        android:text="Repondez a ces questions pour recevoir votre graphe de fertilite."
+        android:text="Repondez a ces questions pour voir votre graphe de fertilite."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView3"
+        android:id="@+id/description"
+        android:fontFamily="casual"
+        android:textSize="14sp"
+        android:layout_marginTop="80px" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="24dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="19dp"
-        android:id="@+id/textView4"
-        android:fontFamily="cursive"
-        android:textSize="14sp" />
+        android:id="@+id/RegleForm">
 
-    <TextView
-        android:text="Duree des reges :"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
-        android:id="@+id/textView5"
-        android:layout_below="@+id/textView4"
-        android:layout_alignLeft="@+id/textView6"
-        android:layout_alignStart="@+id/textView6"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:fontFamily="cursive" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/email_login_layout"
+            android:weightSum="1">
 
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner3"
-        android:layout_alignTop="@+id/textView5"
-        android:layout_toRightOf="@+id/textView3"
-        android:layout_toEndOf="@+id/textView3" />
+            <TextView
+                android:text="Duree des regles :"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:fontFamily="casual"
+                android:textSize="18sp"
+                android:layout_marginTop="110dp" />
 
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner2"
-        android:layout_below="@+id/spinner3"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="29dp"
-        android:layout_alignLeft="@+id/spinner3"
-        android:layout_alignStart="@+id/spinner3" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="165dp"
+                android:layout_marginEnd="165dp"
+                android:id="@+id/spinner6"
+                android:layout_below="@+id/spinner5" />
 
-    <TextView
-        android:text="Duree du cycle :"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView6"
-        android:layout_alignTop="@+id/spinner2"
-        android:layout_toLeftOf="@+id/textView3"
-        android:layout_toStartOf="@+id/textView3"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:fontFamily="cursive" />
+            <TextView
+                android:text="Duree du cycle :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:fontFamily="casual"
+                android:textSize="18sp" />
 
-    <TextView
-        android:text="Date des dernieeres regles(debut)"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/spinner2"
-        android:layout_alignLeft="@+id/textView6"
-        android:layout_alignStart="@+id/textView6"
-        android:layout_marginTop="24dp"
-        android:id="@+id/textView7"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:fontFamily="cursive" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner5"
+                android:layout_below="@+id/description"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.12" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="date"
-        android:ems="10"
-        android:id="@+id/editText"
-        android:layout_below="@+id/textView7"
-        android:layout_alignLeft="@+id/textView7"
-        android:layout_alignStart="@+id/textView7"
-        android:layout_marginTop="12dp" />
+            <TextView
+                android:text="Selectionner la date des dernieres regles :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:fontFamily="casual" />
 
-    <Button
-        android:text="Voir mon graphe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editText"
-        android:layout_toRightOf="@+id/textView7"
-        android:layout_toEndOf="@+id/textView7"
-        android:layout_marginLeft="26dp"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="31dp"
-        android:id="@+id/button"
-        android:fontFamily="cursive" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/editText4"
+                android:fontFamily="sans-serif" />
+
+            <Button
+                android:text="Voir le graphe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="casual"
+                android:textSize="12sp" />
+
+            <Button
+                android:text="Qu'est ce que c'est?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3"
+                android:fontFamily="casual"
+                android:layout_marginLeft="115dp"
+                android:textSize="10sp"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>
