@@ -5,6 +5,15 @@
     xmlns:scatter="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.root.codev02.fragments.GrapheFragment">
 
+    <TextView
+        android:text="Avoir le controle, c'est avoir le choix!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:fontFamily="casual"
+        android:layout_marginTop="10dp" />
+
     <com.intrusoft.scatter.PieChart
         android:id="@+id/pie_chart"
         android:layout_width="match_parent"
