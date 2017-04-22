@@ -304,6 +304,7 @@ require_once ("tete.php");
 				</div>
 			</div>
 
+			
 			<div class="infographic-box" align="center">
 				<div class="container">
 					<h3 >Statistique des différents types de planning familial</h3>
