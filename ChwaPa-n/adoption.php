@@ -150,7 +150,7 @@ require_once ("tete.php");
 
 						<div class="col-md-4">
 							<div class="services-post">
-								<a class="services-icon1" href="#"><i class="fa fa-users"></i></a>
+								<a class="services-icon1" href="contact.php."><i class="fa fa-users"></i></a>
 								<div class="services-post-content">
 									<h4>Adoptez moi</h4>
 									<p>Cliquez ici pour adopter</p>
@@ -160,7 +160,7 @@ require_once ("tete.php");
 
 						<div class="col-md-4">
 							<div class="services-post">
-								<a class="services-icon2" href="#"><i class="fa fa-users"></i></a>
+								<a class="services-icon2" href="contact.php"><i class="fa fa-users"></i></a>
 								<div class="services-post-content">
 									<h4>Je veux donner en adoption</h4>
 									<p>Cliquer ici pour donner en adoption</p>
