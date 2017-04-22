@@ -127,14 +127,29 @@ require_once ("tete.php");
 					<div class="upper-box">
 						<div class="row">
 							<div class="col-md-10">
-							<h1>C'est quoi le <span>planning familiale </span><i class="fa fa-question-circle"></i></h1>
+							<h1 align= "center"><span>"Chwa pam' poum ede tet mwen ak peyim pi byen vanse"</span></h1>
+							<h2>C'est quoi la planification familiale</h2>
 							<p>Le Planning Familial est un mouvement militant qui prend en compte toutes les sexualités, défend le droit à la contraception, à l'avortement et à l'éducation à la sexualité. ... Les femmes ont gagné le droit de choisir d'avoir ou non des enfants et de vivre une sexualité épanouie.</p>
 
-								<h2>Pourquoi un <span>planning familiale </span><i class="fa fa-question-circle"></i></h2>
+								<h2>Pourquoi une planification familiale</h2>
 								<p>Avantages <br/> – La mère et les enfants sont en meilleure santé lorsque les grossesses à risque sont évitées. <br/>– Les familles qui ont peu d'enfants ont plus d'argent et de nourriture pour chaque enfant.<br/> – Les parents ont plus de temps pour travailler et peuvent passer plus de temps avec leur famille. <br/>– Si les jeunes filles retardent la première ou la deuxième grossesse, elles peuvent rester scolarisées.
- </p>
+</p>
 								<p>Points à prendre en considération <br/>– De nombreux jeunes ont besoin d'une contraception pour retarder la grossesse. Idéalement, les jeunes femmes et les jeunes hommes ne devraient pas avoir d'enfants avant l'âge de 18 ans ou avant d'avoir terminé leurs études et d'y être prêts. <br/>– Après avoir eu un enfant, il est plus sain d'attendre au moins 2 ans avant d'essayer d'en avoir un autre. <br/>– Au-delà de 4 grossesses, l'accouchement est plus risqué.
  </p>
+								<h2>But de ce guide de planification familiale</i></h2>
+								<p>
+								Nous avons cree ce site informatif dans le but d'aider notre public pour leur planification familiale. Nous nous sommes donner trois objectifs:
+							<br/>
+Aider les clients à choisir et à utiliser la méthode de planification familiale qui leur convient le mieux, vous fournir les informations dont vous avez besoin pour apporter des conseils et des soins efficaces et de qualité et vous aider à déterminer qui doit être orienté vers un autre professionnel de la santé.</li>
+
+								</p>
+								
+						<h1 align= "center"><span>"Un enfant si nous le voulons et quand nous le voulons"</span></h1>
+						<h2>Comparaison des methodes de planification</h2>
+							<p>
+							Il existe de nombreuses méthodes. Certaines sont plus efficaces que d'autres. Tandis que certaines sont plus faciles à utiliser que d'autres.Les méthodes plus difficiles à utiliser sont parfois moins efficaces si elles ne sont pas
+utilisées correctement.
+							</p>
 							</div>
 							
 						</div>
@@ -162,7 +177,6 @@ require_once ("tete.php");
 
 												<div class="hover-box">
 													<a class="zoom video" href="https://www.youtube.com/watch?v=-FIc7zx9Pt8"></a>
-													<a class="page" href="single-post.php"></a>
 												</div>
 											</div>
 											<div class="work-post-content">
@@ -177,7 +191,6 @@ require_once ("tete.php");
 												<img alt="" src="upload/injectable.jpg">
 												<div class="hover-box">
 													<a class="zoom video" href="https://www.youtube.com/watch?v=yZwP63uL2vI"></a>
-													<a class="page" href="single-post.php"></a>
 												</div>
 											</div>
 											<div class="work-post-content">
@@ -192,7 +205,6 @@ require_once ("tete.php");
 												<img alt="" src="upload/capotte.jpg">
 												<div class="hover-box">
 													<a class="zoom video" href="https://www.youtube.com/watch?v=btcp8XtYeuc"></a>
-													<a class="page" href="single-post.php"></a>
 												</div>
 											</div>
 											<div class="work-post-content">
@@ -209,7 +221,6 @@ require_once ("tete.php");
 												<div class="hover-box">
 													<a class="zoom" href="upload/image4.jpg"></a>
 													<a class="zoom video" href="https://www.youtube.com/watch?v=opnXt3m2Nno"></a>
-													<a class="page" href="single-post.php"></a>
 												</div>
 											</div>
 											<div class="work-post-content">
@@ -230,7 +241,6 @@ require_once ("tete.php");
 												<img alt="" src="upload/image1.jpg">
 												<div class="hover-box">
 													<a class="zoom video" href="http://vimeo.com/45878034"></a>
-													<a class="page" href="single-post.php"></a>
 												</div>
 											</div>
 											<div class="work-post-content">
