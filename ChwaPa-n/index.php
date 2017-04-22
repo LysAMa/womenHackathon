@@ -81,33 +81,7 @@ require_once ("tete.php");
 								 data-easing="easeOutExpo" data-end="7000" data-endspeed="300" data-endeasing="easeInSine"><span> Chwa PaN</span></div>
 							
 
-							<div class="caption randomrotate"
-								 data-x="0"
-								 data-y="273"
-								 data-speed="600"
-								 data-start="1400"
-								 data-easing="easeOutExpo" data-end="7200" data-endspeed="300" data-endeasing="easeInSine" ><img src="images/slider-icons/icon7.png" alt="Image 1"></div>
-
-							<div class="caption randomrotate"
-								 data-x="129"
-								 data-y="273"
-								 data-speed="600"
-								 data-start="1500"
-								 data-easing="easeOutExpo" data-end="7300" data-endspeed="300" data-endeasing="easeInSine" ><img src="images/slider-icons/icon8.png" alt="Image 2"></div>
-
-							<div class="caption randomrotate"
-								 data-x="259"
-								 data-y="273"
-								 data-speed="600"
-								 data-start="1600"
-								 data-easing="easeOutExpo" data-end="7400" data-endspeed="300" data-endeasing="easeInSine" ><img src="images/slider-icons/icon9.png" alt="Image 3"></div>
-
-							<div class="caption randomrotate"
-								 data-x="390"
-								 data-y="273"
-								 data-speed="600"
-								 data-start="1700"
-								 data-easing="easeOutExpo" data-end="7500" data-endspeed="300" data-endeasing="easeInSine" ><img src="images/slider-icons/icon10.png" alt="Image 4"></div>
+							
 							
 
 							<div class="caption randomrotate"
@@ -341,7 +315,7 @@ require_once ("tete.php");
 
 			<div class="infographic-box">
 				<div class="container">
-					<h3>Some Infographic Elements</h3>
+					<h3>Statistic des diferents types de planning familial</h3>
 					<ul class="gender-list">
 						<li><a href="#"><i class="fa fa-male"></i></a></li>
 						<li><a href="#"><i class="fa fa-male"></i></a></li>
@@ -351,54 +325,37 @@ require_once ("tete.php");
 						<li><a href="#"><i class="fa fa-male"></i></a></li>
 						<li><a href="#"><i class="fa fa-male"></i></a></li>
 						<li><a href="#"><i class="fa fa-male"></i></a></li>
-						<li><a href="#"><i class="fa fa-male"></i></a></li>
-						<li><a href="#"><i class="fa fa-male"></i></a></li>
-						<li><a href="#"><i class="fa fa-male"></i></a></li>
+						<li><a href="#"><i class="fa fa-female"></i></a></li>
+						<li><a href="#"><i class="fa fa-female"></i></a></li>
+						<li><a href="#"><i class="fa fa-female"></i></a></li>
 						<li><a href="#"><i class="fa fa-female"></i></a></li>
 						<li><a href="#"><i class="fa fa-female"></i></a></li>
 						<li><a href="#"><i class="fa fa-female"></i></a></li>
 						<li><a href="#"><i class="fa fa-female"></i></a></li>
 						<li><a href="#"><i class="fa fa-female"></i></a></li>
 					</ul>
-					<ul class="stars-list">
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-					</ul>
-
+					
 						<div class="skills-bar">
 						<div class="row">
 							<div class="col-md-2">
 								<div id="circle" data-percent="50"></div>
-								<p>Circular Progress Bar</p>
+								<p>Pilule</p>
 							</div>
 							<div class="col-md-2">
 								<div id="circle2" data-percent="39"></div>
-								<p>Circular Progress Bar</p>
+								<p>Injection</p>
 							</div>
 							<div class="col-md-2">
 								<div id="circle3" data-percent="90"></div>
-								<p>Circular Progress Bar</p>
+								<p>Préservatif</p>
 							</div>
 							<div class="col-md-2">
 								<div id="circle4" data-percent="60"></div>
-								<p>Circular Progress Bar</p>
+								<p>Implant</p>
 							</div>
 							<div class="col-md-2">
 								<div id="circle5" data-percent="80"></div>
-								<p>Circular Progress Bar</p>
+								<p>Stérilet</p>
 							</div>
 							<div class="col-md-2">
 								<div id="circle6" data-percent="45"></div>
