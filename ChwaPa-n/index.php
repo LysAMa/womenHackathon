@@ -366,6 +366,7 @@ require_once ("tete.php");
 						</div>
 					</div>					
 				</div>	
+				
 			</div>
 			<div class="services-box">
 				<div class="container">
@@ -382,6 +383,7 @@ require_once ("tete.php");
 						</div>
 					</div>
 				</div>
+				<img class="shadow-image" alt="" src="images/shadow.png">
 			</div>		
 
 			<?php
