@@ -2,12 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     xmlns:scatter="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.root.codev02.fragments.GrapheFragment">
 
     <TextView
         android:text="Avoir le controle, c'est avoir le choix!"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView16"
         android:textAppearance="@style/TextAppearance.AppCompat"
