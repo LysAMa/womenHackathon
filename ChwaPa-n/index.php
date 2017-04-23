@@ -186,8 +186,9 @@ require_once ("tete.php");
 													<a class="zoom video" href="https://www.youtube.com/watch?v=-FIc7zx9Pt8"></a>
 												</div>
 											</div>
-											<div class="work-post-content">
-												<h5>La pilule</h5>										
+											<div class="work-post-content" >
+												<h5>La pilule</h5>	
+												<p>Tous les jours</p>									
 											</div>
 										</div>
 									</div>
@@ -201,7 +202,8 @@ require_once ("tete.php");
 												</div>
 											</div>
 											<div class="work-post-content">
-												<h5>L'injection</h5>								
+												<h5>L'injection</h5>
+												<p>1fois/3mois</p>								
 											</div>										
 										</div>
 									</div>
@@ -216,6 +218,7 @@ require_once ("tete.php");
 											</div>
 											<div class="work-post-content">
 												<h5>Le preservatif</h5>
+												<p>Chaque Rapport</p>
 												
 											</div>										
 										</div>
@@ -231,7 +234,8 @@ require_once ("tete.php");
 												</div>
 											</div>
 											<div class="work-post-content">
-												<h5>L'implant</h5>											
+												<h5>L'implant</h5>	
+												<p>Chaque 3ans</p>										
 											</div>										
 										</div>
 									</div>
@@ -253,7 +257,7 @@ require_once ("tete.php");
 											<div class="work-post-content">
 
 												<h5>Le Stérilet</h5>
-
+												<p>Une seule fois</p>				
 											</div>
 										</div>
 									</div>
@@ -269,7 +273,7 @@ require_once ("tete.php");
 											</div>
 											<div class="work-post-content">
 												<h5>Le retrait</h5>							
-												
+												<p>Chaque rapport</p>
 
 											</div>										
 										</div>
@@ -286,7 +290,7 @@ require_once ("tete.php");
 											<div class="work-post-content">
 
 												<h5>Vasectomie</h5>												
-
+												<p>Une seule fois.</p>
 											</div>										
 										</div>
 									</div>
@@ -299,8 +303,9 @@ require_once ("tete.php");
 													<a class="zoom" href="upload/image4.jpg"></a>
 												</div>
 											</div>
-											<div class="work-post-content">
-												<h5>La méthode des jours fixes</h5>									
+											<div class="work-post-content" >
+												<h5>La méthode des jours fixes</h5>	
+												<p>Chaque jours</p>								
 											</div>										
 										</div>
 									</div>
@@ -335,15 +340,15 @@ require_once ("tete.php");
 					<div class="skills-bar">
 						<div class="row">
 							<div class="col-md-2">
-								<div id="circle" data-percent="99"></div>
+								<div id="circle" data-percent="91"></div>
 								<p><strong>Pilule</strong></p>
 							</div>
 							<div class="col-md-2">
-								<div id="circle2" data-percent="99"></div>
+								<div id="circle2" data-percent="94"></div>
 								<p><strong>Injection</strong></p>
 							</div>
 							<div class="col-md-2">
-								<div id="circle3" data-percent="98"></div>
+								<div id="circle3" data-percent="85"></div>
 								<p><strong>Préservatif masculin</strong></p>
 							</div>
 							<div class="col-md-2">
@@ -351,11 +356,11 @@ require_once ("tete.php");
 								<p><strong>Implant</strong></p>
 							</div>
 							<div class="col-md-2">
-								<div id="circle5" data-percent="96"></div>
+								<div id="circle5" data-percent="78"></div>
 								<p><strong>Retrait</strong></p>
 							</div>
 							<div class="col-md-2">
-								<div id="circle6" data-percent="95"></div>
+								<div id="circle6" data-percent="79"></div>
 								<p><strong>Préservatif feminin</strong></p>
 							</div>
 						</div>
