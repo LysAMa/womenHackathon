@@ -190,20 +190,13 @@ require_once ("tete.php");
 
 						<div class="col-md-3 sidebar">
 							<div class="sidebar-widgets">
-								<div class="search-widget widget">
-									<form>
-										<input type="search" placeholder="Search here..."/>
-										<button type="submit">
-											<i class="fa fa-search"></i>
-										</button>
-									</form>
-								</div>
+								
 
 								<div class="tabs-widget widget">
 									<ul class="tab-links">
-										<li><a class="tab-link1 active" href="#"> Popular</a></li>
+										<li><a class="tab-link1 active" href="#"> Populaire</a></li>
 										<li><a class="tab-link2" href="#"> Recent</a></li>
-										<li><a class="tab-link3" href="#"> Comments</a></li>
+										<li><a class="tab-link3" href="#"> Commentaire	s</a></li>
 									</ul>
 									<div class="tab-box">
 										<div class="tab-content active">
