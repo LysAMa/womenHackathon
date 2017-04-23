@@ -26,14 +26,33 @@ require_once ("tete.php");
 									<li><a href="#"><i class="fa fa-check-circle"></i>Sterilite</a></li>
 									<li><a href="#"><i class="fa fa-check-circle"></i>Celibataire</a></li>
 									<li><a href="#"><i class="fa fa-check-circle"></i>Pauvreté</a></li>
-									<li><a href="#"><i class="fa fa-check-circle"></i>filterable portfolio</a></li>
-									<li><a href="#"><i class="fa fa-check-circle"></i>+600 google fonts</a></li>
+									<li><a href="#"><i class="fa fa-check-circle"></i>Possibilites</a></li>
+									<li><a href="#"><i class="fa fa-check-circle"></i>Plan</a></li>
 									<li><img alt="" src="images/adoption.jpg"></li>
 								</ul>
 							</div>
 						</div>
 					</div>
 
+
+			<div class="upper-box">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-5">
+								<h1>Carnet d'adresses </h1>
+								<p>
+								<ul>
+									<li><a href="#">Les organismes officiels</a></li>
+									<li><a href="#">Les OAA (organismes autorisés pour l'adoption)</a></li>
+									<li><a href="#">Les associations d’adoptés</a></li>
+									<li><a href="#">Les associations Enfance et Familles d'Adoption</a></li>
+									<li><a href="#">Maisons de l’adoption et Espaces Adoptionz</a></li>
+									<li><a href="#">Les formations préadoption</a></li>
+									<li><a href="#">Autres consultations</a></li>
+								</ul>
+								</p>
+							</div>
+						</div>
+			</div>
 				
 			<!-- Product Box -->
 			<div class="product-box">
@@ -138,7 +157,7 @@ require_once ("tete.php");
 				<div class="container">
 					<div class="row">
 
-						<div class="col-md-4">
+						<div class="col-md-6">
 							<div class="services-post">
 								<a class="services-icon1" href="#."><i class="fa fa-users"></i></a>
 								<div class="services-post-content">
@@ -148,7 +167,7 @@ require_once ("tete.php");
 							</div>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-md-6">
 							<div class="services-post">
 								<a class="services-icon2" href="#"><i class="fa fa-users"></i></a>
 								<div class="services-post-content">
@@ -158,15 +177,7 @@ require_once ("tete.php");
 							</div>
 						</div>
 
-						<div class="col-md-4">
-							<div class="services-post">
-								<a class="services-icon2" href="#"><i class="fa fa-dollar"></i></a>
-								<div class="services-post-content">
-									<h4>Faire un don </h4>
-									<p>Aider un enfant/ une famille</p>							
-								</div>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 				<img class="shadow-image" alt="" src="images/shadow.png">

@@ -1,34 +1,34 @@
 [{
-        "title": "Dawn of the Planet of the Apes",
-        "image": "http://api.androidhive.info/json/movies/1.jpg",
+        "title": "Titre premier image",
+        "image": "https://github.com/LysAMa/womenHackathon/raw/master/image3.jpg",
         "rating": 8.3,
         "releaseYear": 2014,
         "genre": ["Action", "Drama", "Sci-Fi"]
     },
     {
         "title": "District 9",
-        "image": "http://api.androidhive.info/json/movies/2.jpg",
+        "image": "https://github.com/LysAMa/womenHackathon/raw/master/ChwaPa-n/images/adoption.jpg",
         "rating": 8,
         "releaseYear": 2009,
         "genre": ["Action", "Sci-Fi", "Thriller"]
     },
     {
         "title": "Transformers: Age of Extinction",
-        "image": "http://api.androidhive.info/json/movies/3.jpg",
+        "image": "https://github.com/LysAMa/womenHackathon/raw/master/ChwaPa-n/images/preservatif.jpg",
         "rating": 6.3,
         "releaseYear": 2014,
         "genre": ["Action", "Adventure", "Sci-Fi"]
     },
     {
         "title": "X-Men: Days of Future Past",
-        "image": "http://api.androidhive.info/json/movies/4.jpg",
+        "image": "https://github.com/LysAMa/womenHackathon/raw/master/ChwaPa-n/images/sterilet.jpg",
         "rating": 8.4,
         "releaseYear": 2014,
         "genre": ["Action", "Sci-Fi", "Thriller"]
     },
     {
         "title": "The Machinist",
-        "image": "http://api.androidhive.info/json/movies/5.jpg",
+        "image": "https://github.com/LysAMa/womenHackathon/raw/master/ChwaPa-n/images/pilule.jpg",
         "rating": 7.8,
         "releaseYear": 2004,
         "genre": ["Drama", "Thriller"]
