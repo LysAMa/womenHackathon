@@ -96,7 +96,7 @@
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
 
-							<li class=""><a class="" href="index.php">Acceuil</a></li>
+							<li class=""><a class="" href="index.php">Accueil</a></li>
 
 							<li class=""><a href="adoption.php">Adoption</a></li>
 							

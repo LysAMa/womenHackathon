@@ -8,7 +8,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.root.codev02.FormRegleActivity">
+    tools:context="com.example.root.codev02.FormRegleActivity"
+    android:background="@color/cardview_light_background"
+    android:elevation="1dp">
 
     <TextView
         android:text="Methode Planing Naturel"
@@ -16,18 +18,21 @@
         android:layout_height="wrap_content"
         android:id="@+id/titre"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="24sp"
+        android:layout_marginTop="0dp"
+        android:background="@color/cardview_light_background"
         android:fontFamily="casual"
-        android:layout_marginTop="10px" />
+        android:textColor="@color/colorPrimary"
+        android:elevation="16dp" />
 
     <TextView
-        android:text="Repondez a ces questions pour voir votre graphe de fertilite."
-        android:layout_width="wrap_content"
+        android:text="Repondez a ces questions pour voir votre periode de fertilite."
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/description"
-        android:fontFamily="casual"
-        android:textSize="14sp"
-        android:layout_marginTop="80px" />
+        android:layout_marginTop="22dp"
+        android:background="@color/cardview_light_background"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:elevation="@dimen/nav_header_vertical_spacing" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -35,14 +40,19 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/RegleForm">
+        android:id="@+id/RegleForm"
+        android:background="@color/cardview_light_background"
+        tools:background="@color/cardview_light_background">
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:id="@+id/email_login_layout"
-            android:weightSum="1">
+            android:weightSum="1"
+            android:background="@color/cardview_light_background">
 
             <TextView
                 android:text="Duree des regles :"
@@ -52,7 +62,8 @@
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:fontFamily="casual"
                 android:textSize="18sp"
-                android:layout_marginTop="110dp" />
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="10dp" />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
@@ -62,6 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
+                    android:entries="@array/cycle_regle"
                     android:layout_alignParentEnd="true"
                     android:layout_marginRight="165dp"
                     android:layout_marginEnd="165dp"
@@ -77,17 +89,21 @@
                 android:id="@+id/textView14"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:fontFamily="casual"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp" />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:labelFor="@+id/spinner5"
+                android:isScrollContainer="true">
 
                 <Spinner
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spinner5"
                     android:layout_below="@+id/description"
+                    android:entries="@array/jour_regle"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginTop="10dp"
@@ -101,7 +117,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/textView15"
                 android:textAppearance="@style/TextAppearance.AppCompat"
-                android:fontFamily="casual" />
+                android:fontFamily="casual"
+                android:layout_marginLeft="10dp" />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
@@ -111,30 +128,49 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="date"
+                    android:text="Current Date (M-D-YYYY): "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
                     android:ems="10"
                     android:id="@+id/editText3"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:textColorLink="?android:attr/textColorHighlightInverse"
+                    android:background="@color/cardview_light_background"
+                    android:layout_marginLeft="10dp" />
             </android.support.design.widget.TextInputLayout>
 
             <Button
-                android:text="Voir le graphe"
+                android:text="Voir"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/button2"
                 android:layout_marginLeft="120dp"
                 android:layout_marginTop="40dp"
                 android:fontFamily="casual"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:elevation="0dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:background="@color/colorPrimaryDark" />
 
-            <Button
-                android:text="Qu'est ce que c'est?"
-                android:layout_width="wrap_content"
+            <TextView
+                android:text="En quete de reponse?"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button3"
+                android:id="@+id/textView5"
                 android:fontFamily="casual"
-                android:layout_marginLeft="115dp"
-                android:textSize="10sp"
-                android:layout_marginTop="20dp" />
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:text="www.chwapan.com"
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:fontFamily="casual"
+                android:autoLink="web"
+                android:layout_marginLeft="10dp"
+                android:background="@color/cardview_light_background" />
+
         </LinearLayout>
     </ScrollView>
 

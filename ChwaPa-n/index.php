@@ -16,7 +16,7 @@ require_once ("tete.php");
 					<!-- THE FIRST SLIDE -->
 					<li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300">
 						<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-						<img alt="" src="upload/slider-revolution/famille1.jpg" >
+						<img alt="" src="upload/slider-revolution/obm.jpg" >
 
 						<!-- THE CAPTIONS IN THIS SLDIE -->
 						<div class="caption large_text sfb"
@@ -78,7 +78,7 @@ require_once ("tete.php");
 						<!-- THE third SLIDE -->
 						<li data-transition="turnoff" data-slotamount="1" data-masterspeed="300">
 							<!-- THE MAIN IMAGE IN THE third SLIDE -->
-							<img alt="" src="upload/slider-revolution/famille1.jpg" >
+							<img alt="" src="upload/slider-revolution/obm.jpg" >
 
 							<!-- THE CAPTIONS IN THIS SLDIE -->
 							<div class="caption large_text sfb"
@@ -134,11 +134,11 @@ require_once ("tete.php");
 					<div class="upper-box">
 						<div class="row">
 							<div class="col-md-10" id="text" >
-								<h2 align= "center"><span>"Chwa pam' poum ede tet mwen ak peyim pi byen vanse"</span></h2>
-								<h3>C'est quoi la planification familiale</h3>
+								<h2 align= "center"><span>"Un enfant si nous le voulons et quand nous le voulons."</span></h2>
+								<h3>La planification familiale, C'est quoi ?</h3>
 								<p>Le Planning Familial est un mouvement militant qui prend en compte toutes les sexualités, défend le droit à la contraception, à l'avortement et à l'éducation à la sexualité. ... Les femmes ont gagné le droit de choisir d'avoir ou non des enfants et de vivre une sexualité épanouie.</p>
 
-								<h3>Pourquoi une planification familiale</h3>
+								<h3>Pourquoi choisir une planification familiale</h3>
 								<p>Avantages <br/> – La mère et les enfants sont en meilleure santé lorsque les grossesses à risque sont évitées. <br/>– Les familles qui ont peu d'enfants ont plus d'argent et de nourriture pour chaque enfant.<br/> – Les parents ont plus de temps pour travailler et peuvent passer plus de temps avec leur famille. <br/>– Si les jeunes filles retardent la première ou la deuxième grossesse, elles peuvent rester scolarisées.
 								</p>
 								<p>Points à prendre en considération <br/>– De nombreux jeunes ont besoin d'une contraception pour retarder la grossesse. Idéalement, les jeunes femmes et les jeunes hommes ne devraient pas avoir d'enfants avant l'âge de 18 ans ou avant d'avoir terminé leurs études et d'y être prêts. <br/>– Après avoir eu un enfant, il est plus sain d'attendre au moins 2 ans avant d'essayer d'en avoir un autre. <br/>– Au-delà de 4 grossesses, l'accouchement est plus risqué.
@@ -149,8 +149,20 @@ require_once ("tete.php");
 									<br/>
 									Aider les clients à choisir et à utiliser la méthode de planification familiale qui leur convient le mieux, vous fournir les informations dont vous avez besoin pour apporter des conseils et des soins efficaces et de qualité et vous aider à déterminer qui doit être orienté vers un autre professionnel de la santé.
 								</p>
+								<h3>Planification familiale Naturelle</h3>
+								<p>
+									Nous avons cree ce site informatif dans le but d'aider notre public pour leur planification familiale. Nous nous sommes donner trois objectifs:
+									<br/>
+									Aider les clients à choisir et à utiliser la méthode de planification familiale qui leur convient le mieux, vous fournir les informations dont vous avez besoin pour apporter des conseils et des soins efficaces et de qualité et vous aider à déterminer qui doit être orienté vers un autre professionnel de la santé.
+								</p>
+								<h3>Abstinence</h3>
+								<p>
+									Nous avons cree ce site informatif dans le but d'aider notre public pour leur planification familiale. Nous nous sommes donner trois objectifs:
+									<br/>
+									Aider les clients à choisir et à utiliser la méthode de planification familiale qui leur convient le mieux, vous fournir les informations dont vous avez besoin pour apporter des conseils et des soins efficaces et de qualité et vous aider à déterminer qui doit être orienté vers un autre professionnel de la santé.
+								</p>
 								
-								<h2 align= "center"><span>"Un enfant si nous le voulons et quand nous le voulons"</span></h2>
+								<h2 align= "center"><span>"Mon choix pour aider mon pays et moi-meme a avancer."</span></h2>
 								<h3>Comparaison des methodes de planification?</h3>
 								<p>
 									Il existe de nombreuses méthodes. Certaines sont plus efficaces que d'autres. Tandis que certaines sont plus faciles à utiliser que d'autres.Les méthodes plus difficiles à utiliser sont parfois moins efficaces si elles ne sont pas
