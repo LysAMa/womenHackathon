@@ -2,34 +2,34 @@
         "title": "Titre premier image",
         "image": "https://github.com/LysAMa/womenHackathon/raw/master/image3.jpg",
         "rating": 8.3,
-        "releaseYear": ,
+        "releaseYear":2014 ,
         "genre": ["Action", "Drama", "Sci-Fi"]
     },
     {
         "title": "Adoption",
         "image": "https://github.com/LysAMa/womenHackathon/raw/master/ChwaPa-n/images/adoption.jpg",
         "rating": 8,
-        "releaseYear": ,
+        "releaseYear": 2014,
         "genre": ["Action", "Sci-Fi", "Thriller"]
     },
     {
         "title": "Preservatifs",
         "image": "https://github.com/LysAMa/womenHackathon/raw/master/ChwaPa-n/images/preservatif.jpg",
         "rating": 6.3,
-        "releaseYear": ,
+        "releaseYear": 2014,
         "genre": ["Action", "Adventure", "Sci-Fi"]
     },
     {
         "title": "Sterilet",
         "image": "https://github.com/LysAMa/womenHackathon/raw/master/ChwaPa-n/images/sterilet.jpg",
         "rating": 8.4,
-        "releaseYear": ,
+        "releaseYear": 2014,
         "genre": ["Action", "Sci-Fi", "Thriller"]
     },
     {
         "title": "Pilule",
         "image": "https://github.com/LysAMa/womenHackathon/raw/master/ChwaPa-n/images/pilule.jpg",
         "rating": 7.8,
-        "releaseYear": ,
+        "releaseYear": 2014,
         "genre": ["Drama", "Thriller"]
     }]
