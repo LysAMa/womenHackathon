@@ -19,7 +19,7 @@ require_once ("tete.php");
 				<div class="container">
 					<h2>Contactez-nous</h2>
 					<ul class="page-tree">
-						<li><a href="#">Acceuil</a></li>
+						<li><a href="#">Accueil</a></li>
 						<li><a href="#">Contactez-nous</a></li>
 					</ul>		
 				</div>
@@ -37,7 +37,7 @@ require_once ("tete.php");
 							<div class="contact-information">
 								<h3>Informations  Contact</h3>
 								<ul class="contact-information-list">
-									<li><span><i class="fa fa-home"></i>Latranlbe 6 #20</span></li>
+									<li><span><i class="fa fa-home"></i>Bois Verna 6 #20</span></li>
 									<li><span><i class="fa fa-phone"></i>+5094898991</span></li>
 									<li><a href="#"><i class="fa fa-envelope"></i>chwapan@gmail.com</a></li>
 								</ul>

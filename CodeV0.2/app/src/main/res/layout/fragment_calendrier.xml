@@ -46,7 +46,7 @@
         android:layout_marginTop="400dp"
         android:textSize="14sp"
         android:fontFamily="casual"
-        android:layout_marginLeft="126dp" />
+        android:layout_marginLeft="10dp" />
 
     <TextView
         android:text="www.chwapam.com"
@@ -54,6 +54,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView11"
         android:layout_marginTop="420dp"
-        android:layout_marginLeft="128dp" />
+        android:layout_marginLeft="10dp"
+        android:autoLink="web" />
 
 </FrameLayout>

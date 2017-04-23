@@ -28,4 +28,19 @@
         scatter:textColor="#ffffff"
         android:layout_marginTop="4dp" />
 
+    <TextView
+        android:text="En quete de reponse?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:text="www.chwapan.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:autoLink="web"
+        android:layout_marginLeft="10dp" />
+
 </LinearLayout>
