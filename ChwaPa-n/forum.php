@@ -256,7 +256,7 @@ require_once ("tete.php");
 
 										<div class="accord-elem active">
 											<div class="accord-title">
-												<h5><i class="fa fa-question"></i>Marketplace Basics</h5>
+												<h5><i class="fa fa-question"></i>Cycle Menstruel</h5>
 												<a class="accord-link" href="#"></a>
 											</div>
 											<div class="accord-content">
@@ -266,7 +266,7 @@ require_once ("tete.php");
 
 										<div class="accord-elem">
 											<div class="accord-title">
-												<h5><i class="fa fa-question"></i>Author Resources</h5>
+												<h5><i class="fa fa-question"></i>Avortement</h5>
 												<a class="accord-link" href="#"></a>
 											</div>
 											<div class="accord-content">
@@ -276,7 +276,7 @@ require_once ("tete.php");
 
 										<div class="accord-elem">
 											<div class="accord-title">
-												<h5><i class="fa fa-question"></i>Theme Requirements</h5>
+												<h5><i class="fa fa-question"></i>Periode de fertilite</h5>
 												<a class="accord-link" href="#"></a>
 											</div>
 											<div class="accord-content">
@@ -284,18 +284,6 @@ require_once ("tete.php");
 											</div>
 										</div>
 									</div>
-								</div>
-
-								<div class="tags-widget widget">
-									<h5>Tags</h5>
-									<ul class="tag-widget-list">
-										<li><a href="#">web design</a></li>
-										<li><a href="#">coding</a></li>
-										<li><a href="#">wordpress</a></li>
-										<li><a href="#">woo commerce</a></li>
-										<li><a href="#">php</a></li>
-										<li><a href="#">photography</a></li>
-									</ul>
 								</div>
 
 								<div class="text-widget widget">
