@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, BaseSliderView.OnSliderClickListener {
 
     // Billionaires json url
-    private static final String getURL = "https://github.com/LysAMa/womenHackathon/blob/master/images.json";
+    private static final String getURL = "https://raw.githubusercontent.com/LysAMa/womenHackathon/master/images.json";
     HashMap<String, String> url_maps;
 
 
