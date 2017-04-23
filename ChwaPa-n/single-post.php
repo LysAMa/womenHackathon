@@ -21,16 +21,16 @@ require_once ("tete.php");
 							</div>
 
 							<div class="comment-section">
-								<h3>5 Comments</h3>
+								<h3>5 Commentaires</h3>
 
 								<ul class="comment-tree">
 									<li>
 										<div class="comment-box">
 											<img alt="" src="images/avatar1.png">
 											<div class="comment-content">
-												<h6>Collis Ta'eed <span>47minutes ago</span></h6>
+												<h6>Collis Ta'eed <span>Il y a 47 minutes</span></h6>
 												<p>Testing the comments</p>
-												<a class="reply-comment" href="#">reply</a>
+												<a class="reply-comment" href="#">Repondre</a>
 											</div>
 										</div>
 										<ul class="depth">
@@ -38,9 +38,9 @@ require_once ("tete.php");
 												<div class="comment-box">
 													<img alt="" src="images/avatar2.png">
 													<div class="comment-content">
-														<h6>Jeffrey Way <span>47minutes ago</span></h6>
+														<h6>Jeffrey Way <span>Il y a 47 minutes</span></h6>
 														<p>Works good</p>
-														<a class="reply-comment" href="#">reply</a>
+														<a class="reply-comment" href="#">Repondre</a>
 													</div>
 												</div>
 												<ul class="depth">
@@ -84,7 +84,7 @@ require_once ("tete.php");
 							</div>
 
 							<div class="leave-comment">
-								<h3>Leave a comment</h3>
+								<h3>Laissez un commentaire</h3>
 								<form class="comment-form">
 									<div class="row">
 

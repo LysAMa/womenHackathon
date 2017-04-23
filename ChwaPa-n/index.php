@@ -16,7 +16,7 @@ require_once ("tete.php");
 					<!-- THE FIRST SLIDE -->
 					<li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300">
 						<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-						<img alt="" src="upload/slider-revolution/famille2.jpg" >
+						<img alt="" src="upload/slider-revolution/obm.jpg" >
 
 						<!-- THE CAPTIONS IN THIS SLDIE -->
 						<div class="caption large_text sfb"
@@ -78,7 +78,7 @@ require_once ("tete.php");
 						<!-- THE third SLIDE -->
 						<li data-transition="turnoff" data-slotamount="1" data-masterspeed="300">
 							<!-- THE MAIN IMAGE IN THE third SLIDE -->
-							<img alt="" src="upload/slider-revolution/famille1.jpg" >
+							<img alt="" src="upload/slider-revolution/obm.jpg" >
 
 							<!-- THE CAPTIONS IN THIS SLDIE -->
 							<div class="caption large_text sfb"

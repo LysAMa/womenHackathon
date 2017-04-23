@@ -157,7 +157,7 @@ require_once ("tete.php");
 				<div class="container">
 					<div class="row">
 
-						<div class="col-md-4">
+						<div class="col-md-6">
 							<div class="services-post">
 								<a class="services-icon1" href="#."><i class="fa fa-users"></i></a>
 								<div class="services-post-content">
@@ -167,7 +167,7 @@ require_once ("tete.php");
 							</div>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-md-6">
 							<div class="services-post">
 								<a class="services-icon2" href="#"><i class="fa fa-users"></i></a>
 								<div class="services-post-content">
@@ -177,15 +177,7 @@ require_once ("tete.php");
 							</div>
 						</div>
 
-						<div class="col-md-4">
-							<div class="services-post">
-								<a class="services-icon2" href="#"><i class="fa fa-dollar"></i></a>
-								<div class="services-post-content">
-									<h4>Faire un don </h4>
-									<p>Aider un enfant/ une famille</p>							
-								</div>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 				<img class="shadow-image" alt="" src="images/shadow.png">
