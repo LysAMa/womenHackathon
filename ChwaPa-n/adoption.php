@@ -140,20 +140,30 @@ require_once ("tete.php");
 
 						<div class="col-md-4">
 							<div class="services-post">
-								<a class="services-icon1" href="contact.php."><i class="fa fa-users"></i></a>
+								<a class="services-icon1" href="#."><i class="fa fa-users"></i></a>
 								<div class="services-post-content">
-									<h4>Adoptez moi</h4>
-									<p>Cliquez ici pour adopter</p>
+									<h4>Donner en adoption</h4>
+									<p>Cliquer ici pour donner en adoption</p>
 								</div>
 							</div>
 						</div>
 
 						<div class="col-md-4">
 							<div class="services-post">
-								<a class="services-icon2" href="contact.php"><i class="fa fa-users"></i></a>
+								<a class="services-icon2" href="#"><i class="fa fa-users"></i></a>
 								<div class="services-post-content">
-									<h4>Je veux donner en adoption</h4>
-									<p>Cliquer ici pour donner en adoption</p>
+									<h4>Faire une adoption </h4>
+									<p>Cliquez ici pour adopter</p>							
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="services-post">
+								<a class="services-icon2" href="#"><i class="fa fa-dollar"></i></a>
+								<div class="services-post-content">
+									<h4>Faire un don </h4>
+									<p>Aider un enfant/ une famille</p>							
 								</div>
 							</div>
 						</div>
