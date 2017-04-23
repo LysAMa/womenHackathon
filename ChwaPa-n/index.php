@@ -25,9 +25,9 @@ require_once ("tete.php");
 						data-y="128"
 						data-speed="600"
 						data-start="1200"
-						data-easing="easeOutExpo" data-end="7000" data-endspeed="300" data-endeasing="easeInSine" > Bienvenue sur <span>ChwaPaN'</</span></div>
+						data-easing="easeOutExpo" data-end="7000" data-endspeed="300" data-endeasing="easeInSine" > Bienvenue sur <span>ChwaPaN'</span></div>
 
-						<div class="caption big_white sft stt"
+						<div style="font-size:200%;" class="caption big_white sft stt"
 						data-x="30"
 						data-y="185"
 						data-speed="500"
@@ -36,36 +36,43 @@ require_once ("tete.php");
 
 
 
-						<div class="caption modern_small_text_dark sft"
+						<div style="font-size:200%;" class="caption modern_small_text_dark sft"
 						data-x="25"
 						data-y="360"
 						data-speed="600"
 						data-start="1700"
-						data-easing="easeOutExpo" data-end="7350" data-endspeed="300" data-endeasing="easeInSine" ><strong>Amour</strong></div>
+						data-easing="easeOutExpo" data-end="7350" data-endspeed="300" data-endeasing="easeInSine" ><strong>Vie</strong></div>
 
 
-						<div class="caption modern_small_text_dark sft"
+						<div style="font-size:200%;" class="caption modern_small_text_dark sft"
 						data-x="200"
 						data-y="360"
 						data-speed="600"
 						data-start="1900"
-						data-easing="easeOutExpo" data-end="7450" data-endspeed="300" data-endeasing="easeInSine" ><strong>Paix</strong></div>
+						data-easing="easeOutExpo" data-end="7450" data-endspeed="300" data-endeasing="easeInSine" ><strong>Bonheur</strong></div>
 
 
-						<div class="caption modern_small_text_dark sft"
+						<div style="font-size:200%;" class="caption modern_small_text_dark sft"
 						data-x="429"
 						data-y="360"
 						data-speed="600"
 						data-start="2100"
-						data-easing="easeOutExpo" data-end="7550" data-endspeed="300" data-endeasing="easeInSine" ><strong>Bonheur</strong></div>
+						data-easing="easeOutExpo" data-end="7550" data-endspeed="300" data-endeasing="easeInSine" ><strong>Avenir</strong></div>
 
 
-						<div class="caption modern_small_text_dark sft"
+						<div style="font-size:200%;" class="caption modern_small_text_dark sft"
 						data-x="700"
 						data-y="360"
 						data-speed="600"
 						data-start="2300"
-						data-easing="easeOutExpo" data-end="7650" data-endspeed="300" data-endeasing="easeInSine" ><strong>Santé</strong></div>								
+						data-easing="easeOutExpo" data-end="7650" data-endspeed="300" data-endeasing="easeInSine" ><strong>But</strong></div>
+
+						<div style="font-size:200%;" class="caption modern_small_text_dark sft"
+						data-x="929"
+						data-y="360"
+						data-speed="600"
+						data-start="2500"
+						data-easing="easeOutExpo" data-end="7750" data-endspeed="300" data-endeasing="easeInSine" ><strong>Sensibilisation</strong></div>								
 						
 
 						<!-- THE third SLIDE -->
@@ -354,6 +361,22 @@ require_once ("tete.php");
 						</div>
 					</div>					
 				</div>	
+			</div>
+			<div class="services-box">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-4 col-md-offset-4">
+							<div class="services-post">
+								<a class="services-icon1" href="#."><i class="fa fa-file"></i></a>
+								<div class="services-post-content">
+									<h4>Participer au sondage</h4>
+									<p>Cliquer ici pour remplir le formulaire</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>		
 
 			<?php
