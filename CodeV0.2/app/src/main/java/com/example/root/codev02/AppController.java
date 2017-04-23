@@ -1,0 +1,57 @@
+package com.example.root.codev02;
+
+import android.app.Application;
+import android.content.SharedPreferences;
+import android.text.TextUtils;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
+
+/**
+ * Created by Castro Alhdo on 4/22/17.
+ * Code writed by Castro Alhdo on 4/22/17
+ * Don't use my code without my approuve
+ */
+
+public class AppController extends Application {
+
+    public static final String TAG = AppController.class.getSimpleName();
+
+    private RequestQueue mRequestQueue;
+    private static AppController mInstance;
+    SharedPreferences sharedPreferences;
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        mInstance = this;
+    }
+
+    public static synchronized AppController getInstance() {
+        return mInstance;
+    }
+
+    public RequestQueue getRequestQueue() {
+        if (mRequestQueue == null) {
+            mRequestQueue = Volley.newRequestQueue(getApplicationContext());
+        }
+
+        return mRequestQueue;
+    }
+
+    public <T> void addToRequestQueue(Request<T> req, String tag) {
+        req.setTag(TextUtils.isEmpty(tag) ? TAG : tag);
+        getRequestQueue().add(req);
+    }
+
+    public <T> void addToRequestQueue(Request<T> req) {
+        addToRequestQueue(req, TAG);
+    }
+
+    public void cancelPendingRequests(Object tag) {
+        if (mRequestQueue != null) {
+            mRequestQueue.cancelAll(tag);
+        }
+    }
+}
