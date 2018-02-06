@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/planning"
+            android:icon="@drawable/ic_action_people"
+            android:title="Planning Familial" />
+        <item
+            android:id="@+id/pilule"
+            android:icon="@drawable/ic_action_pharmacy"
+            android:title="Pilule" />
+        <item
+            android:id="@+id/preservatif"
+            android:icon="@drawable/ic_action_pharmacy"
+            android:title="Preservatif" />
+        <item
+            android:id="@+id/injection"
+            android:icon="@drawable/ic_action_pharmacy"
+            android:title="Injection" />
+        <item
+            android:id="@+id/implant"
+            android:icon="@drawable/ic_action_pharmacy"
+            android:title="Implant" />
+        <item
+            android:id="@+id/calendrier"
+            android:icon="@drawable/ic_action_calendrier"
+            android:title="Calendrier" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/ic_action_contact"
+                android:title="Contacter nous" />
+            <item
+                android:id="@+id/propos"
+                android:icon="@drawable/ic_action_about"
+                android:title="A propos" />
+        </menu>
+    </item>
+
+</menu>
