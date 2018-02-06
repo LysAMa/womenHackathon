@@ -8,12 +8,5 @@
     tools:context="com.example.thodlydugue.chwapan.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:background="@drawable/famille4"
-        android:id="@+id/linearLayout">
-    </LinearLayout>
 
 </RelativeLayout>

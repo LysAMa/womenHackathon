@@ -4,11 +4,20 @@
     android:layout_height="match_parent"
     tools:context="com.example.thodlydugue.chwapan.Send">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:textSize="60sp"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Envoyer nous un email" />
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Envoyer nous un email"
+            android:textSize="60sp" />
+
+    </RelativeLayout>
+
 
 </FrameLayout>

@@ -4,12 +4,41 @@
     android:layout_height="match_parent"
     tools:context="com.example.thodlydugue.chwapan.Calendrier">
 
-    <!-- TODO: Update blank fragment layout -->
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <CalendarView
+          android:id="@+id/calendarView"
+          android:layout_width="300dp"
+          android:layout_height="300dp"
+          android:layout_below="@+id/textView2"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="38dp" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="42dp"
+          android:text="Calendrier Menstruel"
+          android:textSize="18sp" />
+
+      <Button
+          android:id="@+id/btnCalcul"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignEnd="@+id/calendarView"
+          android:layout_alignParentBottom="true"
+          android:layout_alignRight="@+id/calendarView"
+          android:layout_marginBottom="87dp"
+          android:text="Calculer" />
+
+  </RelativeLayout>
 
 
-    <CalendarView
-        android:id="@+id/calendarView"
-        android:layout_width="350dp"
-        android:layout_height="350dp" />
+
 
 </FrameLayout>

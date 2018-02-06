@@ -4,11 +4,31 @@
     android:layout_height="match_parent"
     tools:context="com.example.thodlydugue.chwapan.Pilule">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:textSize="60sp"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Pilule" />
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="146dp"
+            android:text="Pilule"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView7"
+            android:hint="            android:hint=&quot;hL'efficacité du préservatif dans la prévention des infections sexuellement transmissibles n'est connue qu'approximativement. Elle se mesure également en termes de réduction du risque sur une année pour un individu donné et varie, selon les études disponibles, entre 60 et 96 % environ (par exemple, une méta-étude de 1993 conclut à une réduction du risque de 69 %9 ; une autre étude de 1994 donne 87 % moyenné (entre 60 % et 96 %)10 même si ces études concluent au peu de fiabilité de leurs propres mesures). Elle est sensiblement moindre dans le cas de l'herpès génital11.  Un rapport des National Institutes of Health (agences gouvernementales américaines), paru en 2000, relève une réduction de 85 % du risque de transmission du VIH en cas d'utilisation « correcte et systématique » de préservatifs en latex12.  En avril 2009, un rapport publié par l'OMS abonde dans ce sens13 : « L’utilisation correcte et systématique du préservatif masculin réduit le risque de transmission sexuelle du VIH de 80-90 %. D’après les données disponibles, le préservatif féminin offrirait des niveaux semblables de protection. »&quot; " />
+
+
+    </RelativeLayout>
+
 
 </FrameLayout>
